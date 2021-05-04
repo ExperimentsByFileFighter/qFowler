@@ -1,0 +1,2 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/experimentsbyfilefighter/qfowler/badge)](https://www.codefactor.io/repository/github/experimentsbyfilefighter/qfowler)  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ea2cdcd4ccd040d081b2a615219e7834)](https://www.codacy.com/gh/ExperimentsByFileFighter/qFowler/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ExperimentsByFileFighter/qFowler&amp;utm_campaign=Badge_Grade)
