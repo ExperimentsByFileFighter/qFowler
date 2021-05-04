@@ -8,9 +8,9 @@ int getFrequentRenterPoints(int daysRented){
 }
 
 }
-class ChildrensPrice extends Price
+class ChildrenPrice extends Price
 { int getPriceCode() {
-    return Movie.CHILDRENS;
+    return Movie.CHILDREN;
 }
 
     @Override
