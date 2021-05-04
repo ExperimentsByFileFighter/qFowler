@@ -13,7 +13,8 @@ public class CustomerTest {
         Rental r1 = new Rental(m1, 10);
         Rental r2 = new Rental(m2, 5);
         Customer c1 = new Customer("joe");
-        c1.addRental(r1);   c1.addRental(r2);
+        c1.addRental(r1);
+        c1.addRental(r2);
         actualResult = c1.statement();
 
 
