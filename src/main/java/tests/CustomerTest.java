@@ -1,12 +1,17 @@
 package tests;
 
+
 import de.qvalentin.Customer;
 import de.qvalentin.Movie;
 import de.qvalentin.Rental;
 
-public class CustomerTest {
+import static org.junit.Assert.assertEquals;
 
-    public static void main(String[] args) {
+import org.junit.*;
+
+public class CustomerTest {
+    @Test
+    public void TestCustomer() {
         String actualResult;
         Movie m1 = new Movie("movie1", 1);
         Movie m2 = new Movie("movie2", 2);
@@ -25,13 +30,10 @@ public class CustomerTest {
                 "Amount owed is 34.5\n" +
                 "You earned 3 frequent renter points";
 
-        if (!resultExpected.equals(actualResult))
-            throw new AssertionError("The expectedOutput differed from the actual one. Expected:\n" + resultExpected + "\nGot:\n" + actualResult);
+        assertEquals(resultExpected,actualResult);
 
-        System.out.println("Customer Test 1 success");
+
     }
-
-
 
 
 }

@@ -7,15 +7,25 @@ import java.util.Vector;
 public class Customer {
     private String name;
     private Vector<Rental> rentals = new Vector<>();
-    public Customer (String name){
+
+    public Customer(String name) {
         this.name = name;
-    };
+    }
+
+    ;
+
     public void addRental(Rental arg) {
         rentals.addElement(arg);
-    };
-    public String getName (){
+    }
+
+    ;
+
+    public String getName() {
         return name;
-    };
+    }
+
+    ;
+
     public String statement() {
 
         Enumeration<Rental> enum_rentals = rentals.elements();
@@ -34,7 +44,7 @@ public class Customer {
         return result.toString();
     }
 
-    private double getTotalCharge(){
+    private double getTotalCharge() {
         double totalAmount = 0;
         Enumeration<Rental> enum_rentals = rentals.elements();
         while (enum_rentals.hasMoreElements()) {
@@ -45,7 +55,7 @@ public class Customer {
         return totalAmount;
     }
 
-    private int getFrequentRentalPoints(){
+    private int getFrequentRentalPoints() {
         int frequentRenterPoints = 0;
         Enumeration<Rental> enum_rentals = rentals.elements();
         while (enum_rentals.hasMoreElements()) {
