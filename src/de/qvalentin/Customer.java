@@ -3,7 +3,7 @@ package de.qvalentin;
 
 import java.util.Vector;
 
-class Customer {
+public class Customer {
     private String name;
     private Vector rentals = new Vector();
     public Customer (String newname){
